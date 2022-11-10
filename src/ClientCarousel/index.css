@@ -1,0 +1,72 @@
+.carousel-buttons {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.c-button-n {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.c-button-b {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+.snip15333 {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #9e9e9e;
+    display: inline-block;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-top: 5px solid #d2652d;
+    width:80%;
+    height: 90%;
+    margin: 25px;
+  }
+  
+  .snip15333 figcaption {
+    padding: 13% 10% 12%;
+  }
+  
+  .snip15333 h3 {
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 10px 0 5px;
+  }
+  
+  .client-content {
+    margin: 10px;
+  }
+  
+  .snip15333 blockquote {
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 0 20px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width:442px) {
+     .snip15333 {
+      height: fit-content;
+      margin: 30px;
+     }
+     .carousel-buttons {
+      text-align: center;
+      margin-top: -0px;
+  } 
+}
+@media only screen and (min-width: 425px) and (max-width:442px) {
+   .snip15333 {
+    height: 80%;
+    margin: 35px;
+   }
+}

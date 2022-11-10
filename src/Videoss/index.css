@@ -1,0 +1,129 @@
+.videos-container-1 {
+    margin: 20px;
+}
+.videos-main-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+background-color: #131313;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+ 
+    
+}
+.f-2-videos {
+  display: flex;
+  flex-direction: row;
+  
+}
+.s-2-videos {
+    display: flex;
+    flex-direction: row;
+}
+.v {
+    margin: 5px;
+    border: 1px solid #131313;
+}
+
+.video-para-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.video-heading {
+    font-size: 22px;
+}
+
+
+.row {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-gap: 30px;
+}
+
+.videos{
+border-radius: 5px;
+font-size: 14px;
+cursor: pointer;
+padding: 20px;
+margin: 5px;
+height: 50%;
+background: transparent;
+transition: transform 0.5s, background 0.5s;
+}
+.vido {
+    width: 100%;
+    border: 1px solid tomato;
+    margin: 20px;
+    
+}
+.caro-css {
+    display: none;
+}
+.video-heading {
+   font-size: 22px;
+}
+.video-para {
+   font-size: 16px;
+}
+
+    
+@media only screen and (max-width: 600px) {
+    .videos-container-1 {
+        margin: 10px;
+    }
+    .videos {
+        margin: 10px;
+        padding: 10px;
+    }
+    .video-para {
+        font-size: 14px;
+     }
+    .v {
+        width: 20px;
+        margin-left: 0px;
+    }
+    .f-2-videos {
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .s-2-videos {
+          display: flex;
+          flex-direction: column;
+      }
+    .video-s {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+        
+    }
+    .vido {
+        width: 200px;
+        height: 100px;
+        border: 1px solid tomato;
+        
+    }
+    .caro-css {
+        display: initial;
+    }
+} 
